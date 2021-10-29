@@ -1,15 +1,14 @@
-main {
-    margin: 50px 0;
+.map-container-5 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
-footer, footer a {
-    color: #fff;
-}
-
-footer hr {
-    border-color: #fff;
-}
-
-footer {
-    padding: 20px 0;
+.map-container-5 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
